@@ -9,9 +9,10 @@ var objetos = {
     "username": 'ryan',
     "score": 70.4,
     "hours": 14,
-    "professional": true
+    "professional": true,
+    "friends": ["juan","pedro","ana"]
 }
-
+ 
 
 console.log(objetos.username)
 
