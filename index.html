@@ -25,16 +25,27 @@
                     <div class="card-body">
                         <form action="" id="FormTask">
                             <div class="form-group">
-                                <input type="text" id="title" placeholder="Add a todo" class="form-control">
+                                <input type="text" id="title" placeholder="Add a Task" class="form-control">
                             </div>
+                            <div class="form-group">
+                                <textarea id="description" cols="80" rows="8" class="form-control mt-2" placeholder="Write here the description of your task"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success form-control mt-2">
+                                save
+                            </button>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-
+                <div id="tasks">
+                    <!-- aca se mostraran las tareas por js -->
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- SCRIPTS -->
+    <script src="app.js"></script>
 </body>
 </html>
